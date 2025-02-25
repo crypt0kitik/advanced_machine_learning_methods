@@ -1,10 +1,11 @@
-There 2 datasets. Both of them were used in the previous projects that is why they are cleaned and numeric. In other words, they are ready to be used.
+There 2 datasets. Both of them were used in the previous projects that is why they are cleaned and numeric. In other words, they were ready to be used.
 
 Classifiaction dataset:
 01 - Logistic Regression
 01.2 - Logistic Regression. Scaling
 02 - XGBoost
 03 - CatBoost - the best
+03.2 - CatBoost. Upgraded (after developing all models, I saw that CatBoost had the best results. I decided to improve the model to see if I can make it even better)
 04 - AdaBoost
 05 - LightGBM
 06 - Random Forest
@@ -12,4 +13,4 @@ Classifiaction dataset:
 07.2 - KNN. Upgraded
 08 - SVM (Support Vector Machine)
 09 - Ridge Classifier
-10 - Stacking Classifier
+10 - Stacking Classifier - 2nd place
