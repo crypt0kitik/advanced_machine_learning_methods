@@ -14,3 +14,16 @@ Classifiaction dataset:
 08 - SVM (Support Vector Machine) - it took too long to train the model (more than 25 mins), that is why I ommited this algorithm
 09 - Ridge Classifier
 10 - Stacking Classifier - 2nd place
+
+
+Regression dataset:
+01 - Logistic Regression
+02 - XGBoost
+03 - CatBoost 
+04 - AdaBoost
+05 - LightGBM
+06 - Random Forest
+07 - KNN (K-Nearest Neighbors)
+08 - SVM (Support Vector Machine) - it took too long to train the model (more than 25 mins), that is why I ommited this algorithm
+09 - Ridge!!!!!!!!!!!!!!!
+10 - Stacking Classifier
