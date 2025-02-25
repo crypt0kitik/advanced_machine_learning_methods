@@ -9,3 +9,4 @@ Classifiaction dataset:
 05 - LightGBM
 06 - Random Forest
 07 - KNN (K-Nearest Neighbors)
+07.2 - KNN. Upgraded
