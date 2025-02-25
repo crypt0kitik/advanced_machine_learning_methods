@@ -11,3 +11,5 @@ Classifiaction dataset:
 07 - KNN (K-Nearest Neighbors)
 07.2 - KNN. Upgraded
 08 - SVM (Support Vector Machine)
+09 - Ridge Classifier
+10 - Stacking Classifier
