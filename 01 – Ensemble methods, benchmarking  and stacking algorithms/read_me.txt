@@ -4,6 +4,8 @@ Classifiaction dataset:
 01 - Logistic Regression
 01.2 - Logistic Regression. Scaling
 02 - XGBoost
-03 - CatBoost
+03 - CatBoost - the best
 04 - AdaBoost
 05 - LightGBM
+06 - Random Forest
+07 - KNN (K-Nearest Neighbors)
