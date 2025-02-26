@@ -28,6 +28,5 @@ Regression dataset:
 08 - SVM (Support Vector Machine) - it took too long to train the model (more than 25 mins), that is why I ommited this algorithm
 09 - Ridge (Lasso) Regression
 10 - Stacking Regression
-11 - Experiment
 
 Note: experimenting with all these models, I was constantly worried about R² Score. It did not show better results than 0.5. All other metrics were more or less good.
