@@ -21,7 +21,7 @@ Preprocess the Text Data
 •	Consider using TF-IDF or Word2Vec/GloVe embeddings.  
 
 
-1. Word Tokenization (NLTK, SpaCy)
+1. Word Tokenization (SpaCy)
 2. Subword Tokenization (BPE, WordPiece, SentencePiece)
 3. Sentence Tokenization (NLTK, SpaCy)
 4. BERT Tokenization (WordPiece)
