@@ -20,7 +20,7 @@ Regression dataset:
 01 - Logistic Regression
 02 - XGBoost
 03 - CatBoost - winner considering all metrics
-03 - CatBoost. Upgraded (after developing all models, I saw that CatBoost had the best results. I decided to improve the model to see if I can make it even better)
+03 - CatBoost. Upgraded (after developing all models, I saw that CatBoost had the best results. I decided to improve the model to see if I can make it even better). It did not succeed because code took long time to run
 04 - AdaBoost
 05 - LightGBM
 06 - Random Forest
