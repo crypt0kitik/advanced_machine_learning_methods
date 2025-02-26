@@ -22,8 +22,8 @@ Preprocess the Text Data
 
 
 1. Word Tokenization (SpaCy)
-2. Subword Tokenization (BPE, WordPiece, SentencePiece)
-3. Sentence Tokenization (NLTK, SpaCy)
+2. Subword Tokenization (BPE)
+3. Sentence Tokenization (SpaCy)
 4. BERT Tokenization (WordPiece)
 5. Tiktoken (OpenAI, GPT)
 6. Whitespace Tokenization (Simple but Fast)
