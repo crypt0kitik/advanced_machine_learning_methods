@@ -12,3 +12,10 @@ methods (e.g. n-gram)
  Hyperparameter and algorithm (also neural network) tuning
  Different base models / embeddings
 o DistilBERT, roBERTa, ALBERT, FastText, Word2Vec, GloVe etc.
+
+
+Preprocess the Text Data  
+•	Remove stopwords and perform text cleaning.  
+•	Apply lemmatization or stemming.  
+•	Experiment with different tokenization strategies.  
+•	Consider using TF-IDF or Word2Vec/GloVe embeddings.  
