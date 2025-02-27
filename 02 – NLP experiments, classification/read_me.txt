@@ -39,6 +39,9 @@ Even numbers in the "participant_id" column = chatbot
 
 This will be also a part of classification.
 
+
+
+
 01 PART - Tokenization
 
 1. Word Tokenization (SpaCy)
@@ -50,10 +53,12 @@ This will be also a part of classification.
 
 
 
+
 02 PART - PREPROCESS THE TEXT DATA 
 
 •	Remove stopwords and perform text cleaning.  
 •	Apply lemmatization or stemming (I opted for lemmatization because it is a smarter reduction)
+
 
 
 
@@ -65,6 +70,7 @@ This will be also a part of classification.
 4. BERT Tokenization (WordPiece)
 5. Tiktoken (OpenAI, GPT)
 6. Whitespace Tokenization (Simple but Fast)
+
 
 
 
@@ -94,6 +100,9 @@ Makes it memory-heavy and slow for large datasets.
 
 In my case the best approach is a combination of TF-IDF and GloVe. 
 This allows TF-IDF to handle structured, keyword-based answers and GloVe to capture semantic meaning in longer responses.
+
+
+
 
 
 
