@@ -2,20 +2,20 @@ Classic ML – Naïve-Bayes –classification
 
 INTRODUCTION:
 
+At the beginning of 2025, we conducted user studies in Finland with marketing scholars as participants. 
+They were divided into two groups, each using a different AI tool (Deepfake and Chatbot) to study personas. 
+After this experiment, we gathered all data, including chat logs, learning stages in the chatbot, 
+participants’ notes, moderators’ notes, and responses from the pre- and post-surveys 
+(the part of questions was the same, but we will revisit this later in the article). 
+
 In this context, we aim to compare the effectiveness of two distinct 
 AI tools — Deepfake and Chatbot technologies — to determine which 
 is more effective for educational purposes, namely, 
 in the explanation of Persona to laypeople.
 
-At the beginning of 2025, we conducted user studies in Finland with marketing scholars as participants. 
-They were divided into two groups, each using a different AI tool and learning method to study personas. 
-After this experiment, we gathered all data, including chat logs, learning stages in the chatbot, 
-participants’ notes, moderators’ notes, and responses from the pre- and post-surveys 
-(the questions were the same, but we will revisit this later in the article). 
-
 00 PART - ADDING LABELS
 
-When it came to classification (Part 05) using the Naïve Bayes Classifier,
+When it came to classification (Part 05) by utilizng the Naïve Bayes Classifier,
 I realized that my data did not have labels. That is why I compared several APIs
 and chose the Google Bard API (PaLM 2) for survey answer classification.
 
@@ -23,7 +23,6 @@ As far as I understood, I needed to modify some titles in the survey.
 I had to replace them with real questions; otherwise, the Google Bard API
 would not be able to grade them properly.
 
-The dataset will have three types of labels:
 The dataset will have 3 types of labels:
 1. All text responses → AI will grade them as HIGH, MEDIUM, or LOW using Google Bard API (PaLM 2).
 2. Numeric responses → Directly classified as CORRECT or NOT CORRECT using predefined thresholds.
@@ -32,6 +31,13 @@ The dataset will have 3 types of labels:
 This classification will help us to understand how well participant learnt during the user study.
 After that I had to run all code snippets again because the original dataset was changed.
 Why I have so many snippets for other parts? I want to test different types of tokenization
+
+Moreover, I need to mention that originally, all participants were divided into 2 groups:
+one group watched a deepfake, while the other interacted with a chatbot.
+Odd numbers in the "participant_id" column = deepfake
+Even numbers in the "participant_id" column = chatbot
+
+This will be also a part of classification.
 
 01 PART - Tokenization
 
