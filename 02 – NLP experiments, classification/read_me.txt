@@ -1,5 +1,38 @@
 Classic ML – Naïve-Bayes –classification
 
+00 PART
+When it came to classification (05 part) by utilizing Naïve Bayes Classifier,
+I undrstood that I do not have labels in my data, that is why I made comparison
+of several APIs and opted for Google Bard API (PaLM 2) for Survey Answer Classification .
+It will have 3 options:
+- HIGH: If the answer is fully correct and detailed.
+- MEDIUM: If the answer is somewhat correct but lacks detail.
+- LOW: If the answer is incorrect or unrelated.
+
+By adding both labels, you get a detailed view of:
+
+How correct each answer is (High/Medium/Low)
+How participants' knowledge changed after the post-survey (Improved/Same/Declined)
+
+
+1️⃣ Use Google Bard API (PaLM 2) to evaluate correctness of each response:
+
+HIGH → Fully correct and detailed.
+MEDIUM → Somewhat correct, lacks details.
+LOW → Incorrect or unrelated.
+
+2️⃣ Compare pre-survey and post-survey answers to measure change in performance:
+
+IMPROVED → Post-survey score is higher than pre-survey.
+SAME → No change in correctness.
+DECLINED → Post-survey score is lower than pre-survey.
+
+
+
+This classification will help us to understand how well participant learnt during the user study.
+After that I had to run all code snippets again because the original dataset was changed.
+Why I have so many snippets? I want to test different types of tokenization
+
 01 PART - Tokenization
 
 1. Word Tokenization (SpaCy)
