@@ -1,37 +1,37 @@
 Classic ML – Naïve-Bayes –classification
 
-00 PART
-When it came to classification (05 part) by utilizing Naïve Bayes Classifier,
-I undrstood that I do not have labels in my data, that is why I made comparison
-of several APIs and opted for Google Bard API (PaLM 2) for Survey Answer Classification .
-It will have 3 options:
-- HIGH: If the answer is fully correct and detailed.
-- MEDIUM: If the answer is somewhat correct but lacks detail.
-- LOW: If the answer is incorrect or unrelated.
+INTRODUCTION:
 
-By adding both labels, you get a detailed view of:
+In this context, we aim to compare the effectiveness of two distinct 
+AI tools — Deepfake and Chatbot technologies — to determine which 
+is more effective for educational purposes, namely, 
+in the explanation of Persona to laypeople.
 
-How correct each answer is (High/Medium/Low)
-How participants' knowledge changed after the post-survey (Improved/Same/Declined)
+At the beginning of 2025, we conducted user studies in Finland with marketing scholars as participants. 
+They were divided into two groups, each using a different AI tool and learning method to study personas. 
+After this experiment, we gathered all data, including chat logs, learning stages in the chatbot, 
+participants’ notes, moderators’ notes, and responses from the pre- and post-surveys 
+(the questions were the same, but we will revisit this later in the article). 
 
+00 PART - ADDING LABELS
 
-1️⃣ Use Google Bard API (PaLM 2) to evaluate correctness of each response:
+When it came to classification (Part 05) using the Naïve Bayes Classifier,
+I realized that my data did not have labels. That is why I compared several APIs
+and chose the Google Bard API (PaLM 2) for survey answer classification.
 
-HIGH → Fully correct and detailed.
-MEDIUM → Somewhat correct, lacks details.
-LOW → Incorrect or unrelated.
+As far as I understood, I needed to modify some titles in the survey.
+I had to replace them with real questions; otherwise, the Google Bard API
+would not be able to grade them properly.
 
-2️⃣ Compare pre-survey and post-survey answers to measure change in performance:
-
-IMPROVED → Post-survey score is higher than pre-survey.
-SAME → No change in correctness.
-DECLINED → Post-survey score is lower than pre-survey.
-
-
+The dataset will have three types of labels:
+The dataset will have 3 types of labels:
+1. All text responses → AI will grade them as HIGH, MEDIUM, or LOW using Google Bard API (PaLM 2).
+2. Numeric responses → Directly classified as CORRECT or NOT CORRECT using predefined thresholds.
+3. Selected pre/post survey questions → Compared for IMPROVED, SAME, or DECLINED performance.
 
 This classification will help us to understand how well participant learnt during the user study.
 After that I had to run all code snippets again because the original dataset was changed.
-Why I have so many snippets? I want to test different types of tokenization
+Why I have so many snippets for other parts? I want to test different types of tokenization
 
 01 PART - Tokenization
 
