@@ -36,7 +36,6 @@ Moreover, I need to mention that originally, all participants were divided into 
 one group watched a deepfake, while the other interacted with a chatbot.
 Odd numbers in the "participant_id" column = deepfake
 Even numbers in the "participant_id" column = chatbot
-
 This will be also a part of classification.
 
 
