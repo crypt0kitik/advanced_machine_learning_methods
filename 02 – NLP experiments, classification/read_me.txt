@@ -15,18 +15,22 @@ in the explanation of Persona to laypeople.
 
 00 PART - ADDING LABELS
 
-When it came to classification (Part 05) by utilizng the Naïve Bayes Classifier,
-I realized that my data did not have labels. That is why I compared several APIs
-and chose the Google Bard API (PaLM 2) for survey answer classification.
 
-As far as I understood, I needed to modify some titles in the survey.
-I had to replace them with real questions; otherwise, the Google Bard API
-would not be able to grade them properly.
-
-The dataset will have 3 types of labels:
-1. All text responses → AI will grade them as HIGH, MEDIUM, or LOW using Google Bard API (PaLM 2).
-2. Numeric responses → Directly classified as CORRECT or NOT CORRECT using predefined thresholds.
-3. Selected pre/post survey questions → Compared for IMPROVED, SAME, or DECLINED performance.
+The dataset  have 4 types of labels:
+1. The correctness of answers
+"Correct"" and ""Not correct"" 
+2. Improvement of answers
+""Correct"" in pre VS ""Not Correct"" in post --> ""DECLINED"",
+""Not Correct"" in pre VS ""Correct"" in post --> ""IMPROVED"",
+""Correct"" in pre VS ""Correct"" in post --> ""SAME"",
+""Not Correct"" in pre VS ""Not Correct"" in post --> ""SAME"""
+3. Rability of answers
+HIGH: If the answer is fully correct and detailed.
+MEDIUM: If the answer is somewhat correct but lacks detail.
+LOW: If the answer is incorrect or unrelated.
+4. AI tool interaction
+- Deepfake
+- Chatboot
 
 This classification will help us to understand how well participant learnt during the user study.
 After that I had to run all code snippets again because the original dataset was changed.
