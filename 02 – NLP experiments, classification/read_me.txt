@@ -32,12 +32,6 @@ LOW: If the answer is incorrect or unrelated.
 - Chatboot
 
 This classification will help us to understand how well participant learnt during the user study.
-After that I had to run all code snippets again because the original dataset was changed.
-Why I have so many snippets for other parts? I want to test different types of tokenization
-
-
-
-
 
 01 PART - Tokenization
 
