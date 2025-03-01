@@ -15,19 +15,20 @@ in the explanation of Persona to laypeople.
 
 00 PART - ADDING LABELS
 
+
 The dataset  have 4 types of labels:
 1. The correctness of answers
 "Correct"" and ""Not correct"" 
 2. Improvement of answers
-Correct"" in pre survey VS "Not Correct" in post survey --> ""DECLINED"",
-"Not Correct" in pre survey VS "Correct" in post survey --> ""IMPROVED"",
-"Correct" in pre survey VS "Correct" in post survey --> ""SAME"",
-"Not Correct" in pre survey VS "Not Correct" in post survey --> ""SAME"""
+""Correct"" in pre VS ""Not Correct"" in post --> ""DECLINED"",
+""Not Correct"" in pre VS ""Correct"" in post --> ""IMPROVED"",
+""Correct"" in pre VS ""Correct"" in post --> ""SAME"",
+""Not Correct"" in pre VS ""Not Correct"" in post --> ""SAME"""
 3. Rability of answers
 HIGH: If the answer is fully correct and detailed.
 MEDIUM: If the answer is somewhat correct but lacks detail.
 LOW: If the answer is incorrect or unrelated.
-4. AI tool interaction based on their study group
+4. AI tool interaction
 - Deepfake
 - Chatboot
 
@@ -35,6 +36,11 @@ This classification will help us to understand how well participant learnt durin
 After that I had to run all code snippets again because the original dataset was changed.
 Why I have so many snippets for other parts? I want to test different types of tokenization
 
+Moreover, I need to mention that originally, all participants were divided into 2 groups:
+one group watched a deepfake, while the other interacted with a chatbot.
+Odd numbers in the "participant_id" column = deepfake
+Even numbers in the "participant_id" column = chatbot
+This will be also a part of classification.
 
 
 
