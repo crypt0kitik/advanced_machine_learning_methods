@@ -101,12 +101,6 @@ This allows TF-IDF to handle structured, keyword-based answers and GloVe to capt
 
 Talking about the model, I started with Naïve Bayes Classifier because it does not require GPU. 
 
-In order to proceed with Naïve Bayes Classifier, I need to have an answer key.
-Therefore, I want to automatically assess correctness of survey answers without a predefined answer keym
-For this I can use AI-based NLP model to evaluate responses - OpenAI’s GPT-4 / GPT-3.5.
-
-
-
 
 
 
